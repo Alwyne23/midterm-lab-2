@@ -60,11 +60,13 @@
 
   const  items =  ref([
            { title: 'Dashboard', icon: 'mdi-view-dashboard', path: '/' },
-           { title: 'Math', icon: 'mdi-plus-one', path: '/basicMath' },
+           { title: 'Simple Calculator', icon: 'mdi-plus-one', path: '/basicMath' },
            { title: 'String App', icon: 'mdi-help-box', path: '/stringApp'},
-           { title: 'Vuetify', icon: 'mdi-vuejs', path: '/vuetifyApp'},
+           { title: 'Quiz App', icon: 'mdi-account', path: '/axiosDemoApp'},
+           { title: 'Vuetify Research', icon: 'mdi-vuejs', path: '/vuetifyApp'},
            { title: 'About Me', icon: 'mdi-account', path: '/aboutmeApp'},
-           { title: 'Axios Demo', icon: 'mdi-account', path: '/axiosDemoApp'},
+           { title: 'Apps Explained', icon: 'mdi-account', path: '/appsExplained'},
+           
         ])
 
  function toggleDrawer(){

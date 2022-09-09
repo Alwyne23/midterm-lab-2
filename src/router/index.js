@@ -5,6 +5,8 @@ import HomeView from '../views/Dashboard.vue'
 import VuetifyView from '../views/Vuetify.vue'
 import AboutmeView from '../views/Aboutme.vue'
 import AxiosDemoView from '../views/AxiosDemo.vue'
+import AppsExplainedView from '../views/AppsExplained.vue'
+
 
 
 
@@ -40,7 +42,12 @@ const router = createRouter({
         path: '/axiosDemoApp',
         name: 'axiosDemoApp',
         component: AxiosDemoView
-      }
+      },
+      {
+      path: '/appsExplained',
+      name: 'appsExplained',
+      component: AppsExplainedView
+    }
   ]
 })
 
